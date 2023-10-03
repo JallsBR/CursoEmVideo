@@ -1,0 +1,11 @@
+# Exercício Python 023: Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+numero = int(input('Digite um número: '))
+numerostr = str(numero)
+numerobase = ('{:0>4}'.format(numerostr))
+print('-'*5, 'Analizando o número', '-'*5, '\n')
+print('O número {} tem: '.format(numero))
+print('{} Unidades'.format(numerobase[3]))
+print('{} Dezenas'.format(numerobase[2]))
+print('{} Centenas'.format(numerobase[1]))
+print('{} Milhar'.format(numerobase[0]))
+print('-'*30)

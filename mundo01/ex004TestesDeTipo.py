@@ -1,0 +1,7 @@
+v1 = input('Digite algo:')
+print(v1)
+print(type(v1))
+print('O  vamor digitado é Alphanumérico: ', v1.isalnum())
+print('O  vamor digitado é Alfabético? ', v1.isalpha())
+print('O  vamor digitado é Númerico: ', v1.isnumeric())
+print('O  vamor digitado é Decimal: ', v1.isdecimal())
